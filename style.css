@@ -1,0 +1,96 @@
+* {         /*all elements*/
+  margin: 0;
+  padding: 0;
+}
+
+#TitleFont, h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'NTR', sans-serif;
+}
+
+.navigation {
+  font-size: .5vh;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 10px 500px;
+}
+
+a{        /* how links appear*/
+  color: #000;
+  width: 100px;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:visited{        /* how already visited links appear */
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{          /* how links appear when mouse hovers over it */
+  color: #C0C0C0;
+
+  text-decoration: none;
+}
+
+.photo-1{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.photo-1:hover{
+  color: #C0C0C0;
+}
+
+.farm-photos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px 200px;
+}
+
+
+ .farm-photos div img{
+   width: 70%;
+ }
+
+.text-box, .heading{        /*CSS selectors*/
+  display: flex;
+  justify-content: center;
+  padding: 10px 200px;
+}
+
+.columns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 250px;
+}
+
+.map{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.detroitMap{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
